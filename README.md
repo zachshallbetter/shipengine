@@ -122,6 +122,14 @@ Or you can use `npm run lint:fix` to automatically fix most linting errors.
 `npm test`<br><br>
 This runs tests in both Node.js and web browsers. Use `npm run test:node` to only run Node.js tests, or `npm run test:browser` to only run browser tests.
 
+DENO Land 🦕
+--------------------------
+This SDK is also compatible with [Deno](https://deno.land/). To use this SDK in a Deno project, you can import the SDK directly from the GitHub repository or via denoland 
+  
+  ```TypeScript
+  import { ShipEngine } from "https://api.deno.land/webhook/gh/shipengine";
+  ```
+
 Committing
 -------------------------
 This project adheres to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
